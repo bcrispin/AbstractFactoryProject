@@ -1,0 +1,4 @@
+﻿  ComponentSingleton.cpp
+c:\users\brennan\documents\visual studio 2015\projects\consoleapplication1\consoleapplication1\componentsingleton.cpp(33): warning C4715: 'ComponentSingleton::getFactory': not all control paths return a value
+  ConsoleApplication1.vcxproj -> c:\users\brennan\documents\visual studio 2015\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe
+  ConsoleApplication1.vcxproj -> c:\users\brennan\documents\visual studio 2015\Projects\ConsoleApplication1\Debug\ConsoleApplication1.pdb (Full PDB)

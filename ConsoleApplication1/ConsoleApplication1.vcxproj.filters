@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Office00">
+      <UniqueIdentifier>{82f95cce-4739-4329-a49a-b640b9aeca5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Office90">
+      <UniqueIdentifier>{60bf60e6-393d-4205-abbd-1d72e11ac4cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Office10">
+      <UniqueIdentifier>{d3a24d4c-1669-4150-8094-ee0ba7222772}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Office18">
+      <UniqueIdentifier>{4f0f8887-5754-4aa9-92c8-0a329db5aeb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AbstractWidgets">
+      <UniqueIdentifier>{05d6328c-32e7-489d-8fd8-3446ebe82709}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Office90">
+      <UniqueIdentifier>{ea7d2765-c07a-4ef2-95f0-98786c5fe63d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Office00">
+      <UniqueIdentifier>{7b8b77cd-a022-4945-b78b-6c2dd88f741c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Office10">
+      <UniqueIdentifier>{8bf574c9-b946-41c2-99c0-d0b51d6df652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Office18">
+      <UniqueIdentifier>{7c0bf6d2-7dbf-4cad-a8a1-4aaf1b8a5d8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Factories">
+      <UniqueIdentifier>{8e7facd1-3158-4098-a57a-6d8b555f5d72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Factories">
+      <UniqueIdentifier>{8aa6db27-3d97-4562-b490-ff03626a701b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Office00Button.h">
+      <Filter>Header Files\Office00</Filter>
+    </ClInclude>
+    <ClInclude Include="Office00Panel.h">
+      <Filter>Header Files\Office00</Filter>
+    </ClInclude>
+    <ClInclude Include="Office00Textbox.h">
+      <Filter>Header Files\Office00</Filter>
+    </ClInclude>
+    <ClInclude Include="Office90Button.h">
+      <Filter>Header Files\Office90</Filter>
+    </ClInclude>
+    <ClInclude Include="Office90Panel.h">
+      <Filter>Header Files\Office90</Filter>
+    </ClInclude>
+    <ClInclude Include="Office90Textbox.h">
+      <Filter>Header Files\Office90</Filter>
+    </ClInclude>
+    <ClInclude Include="Office10Textbox.h">
+      <Filter>Header Files\Office10</Filter>
+    </ClInclude>
+    <ClInclude Include="Office10Panel.h">
+      <Filter>Header Files\Office10</Filter>
+    </ClInclude>
+    <ClInclude Include="Office10Button.h">
+      <Filter>Header Files\Office10</Filter>
+    </ClInclude>
+    <ClInclude Include="Office18Button.h">
+      <Filter>Header Files\Office18</Filter>
+    </ClInclude>
+    <ClInclude Include="Office18Panel.h">
+      <Filter>Header Files\Office18</Filter>
+    </ClInclude>
+    <ClInclude Include="Office18Textbox.h">
+      <Filter>Header Files\Office18</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Header Files\AbstractWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\AbstractWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Textbox.h">
+      <Filter>Header Files\AbstractWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Widget.h">
+      <Filter>Header Files\AbstractWidgets</Filter>
+    </ClInclude>
+    <ClInclude Include="Office90Factory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentFactory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Office00Factory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Office10Factory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="Office18Factory.h">
+      <Filter>Header Files\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="ComponentSingleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TooManyInstanceException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleApplication1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Office90Button.cpp">
+      <Filter>Source Files\Office90</Filter>
+    </ClCompile>
+    <ClCompile Include="Office90Panel.cpp">
+      <Filter>Source Files\Office90</Filter>
+    </ClCompile>
+    <ClCompile Include="Office90Textbox.cpp">
+      <Filter>Source Files\Office90</Filter>
+    </ClCompile>
+    <ClCompile Include="Office00Button.cpp">
+      <Filter>Source Files\Office00</Filter>
+    </ClCompile>
+    <ClCompile Include="Office00Panel.cpp">
+      <Filter>Source Files\Office00</Filter>
+    </ClCompile>
+    <ClCompile Include="Office00Textbox.cpp">
+      <Filter>Source Files\Office00</Filter>
+    </ClCompile>
+    <ClCompile Include="Office10Button.cpp">
+      <Filter>Source Files\Office10</Filter>
+    </ClCompile>
+    <ClCompile Include="Office10Panel.cpp">
+      <Filter>Source Files\Office10</Filter>
+    </ClCompile>
+    <ClCompile Include="Office10Textbox.cpp">
+      <Filter>Source Files\Office10</Filter>
+    </ClCompile>
+    <ClCompile Include="Office18Textbox.cpp">
+      <Filter>Source Files\Office18</Filter>
+    </ClCompile>
+    <ClCompile Include="Office18Panel.cpp">
+      <Filter>Source Files\Office18</Filter>
+    </ClCompile>
+    <ClCompile Include="Office18Button.cpp">
+      <Filter>Source Files\Office18</Filter>
+    </ClCompile>
+    <ClCompile Include="Office90Factory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Office18Factory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Office10Factory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="Office00Factory.cpp">
+      <Filter>Source Files\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="ComponentSingleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TooManyInstanceException.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
